@@ -7,7 +7,7 @@ class Filtre extends React.Component{
     
 render() {
         return (
-              <li>Hello World</li>
+              <li>filtre 1</li>
         );
     }
 };
