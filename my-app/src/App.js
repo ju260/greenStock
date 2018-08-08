@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Filtres from './filtres';
 /*import MyDashboard from './myDashboard';
 */import MyStocks from './MyStocks';
-
+//import './App.css';
 
 
 
