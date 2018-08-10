@@ -13,7 +13,7 @@ render() {
               <label for="per3">17 &lsaquo; PER &lsaquo; 25 (L'action est surévaluée ou il y a croissance des profits depuis les dernières annonces.)</label><input id="per3" type="checkbox" />
               <label for="per4"> 25 &lsaquo; PER l est probable que de forts profits soient attendus dans le futur, ou l'action fait l'objet d'une bulle spéculative.) </label><input id="per3" type="checkbox" /></li>
               */
-              <li>EBITDATA</li>
+              /*<li>EBITDATA</li>*/
         );
     }
 };
