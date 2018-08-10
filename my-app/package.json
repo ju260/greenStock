@@ -5,7 +5,7 @@
     "proxy": "http://localhost:3000",
     "dependencies": {
         "alphavantage": "^1.1.1",
-        "material-ui": "^1.0.0-beta.39",
+        "core-js": "^3.0.0-beta.3",
         "node-cron": "^1.2.1",
         "node-fetch": "^2.1.2",
         "react": "^16.3.0",
@@ -26,6 +26,7 @@
         "express": "^4.16.3",
         "google-charts": "^1.0.0",
         "google-finance": "^0.1.11",
+        "material-ui": "^1.0.0-beta.47",
         "mysql": "^2.15.0",
         "node-sass": "^4.9.2",
         "sass-loader": "^7.1.0"
