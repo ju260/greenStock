@@ -2,7 +2,7 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
-    "proxy": "http://localhost:3000",
+    "proxy": "http://localhost:4000",
     "dependencies": {
         "alphavantage": "^1.1.1",
         "core-js": "^3.0.0-beta.3",
