@@ -4,11 +4,40 @@ const React = require('react');
 
 class Filtres extends React.Component {
     
-
+    constructor() {
+        super();
+    
+        this.handleSubmit = this
+          .handleSubmit
+          .bind(this)
+      }
+    
+      handleSubmit(event) {
+        event.preventDefault();
+        var data = {
+          
+        }
+       // console.log(data)
+       let self = this;
+       fetch('http://localhost:3000/search', {
+           method: 'GET'
+       }).then(function(response) {console.log('response'+response)
+           if (response.status >= 400) {
+               throw new Error("Bad response from server");
+           }
+           return response.json();
+       }).then(function(data) {
+         console.log(data)
+          // self.setState({users: data});
+       }).catch(err => {
+       console.log('caught it!',err);
+       })
+    
+      }
     render() {
         return (
             <div>
-                <form onSubmit={this.handleSubmit} method="POST">
+                <form onSubmit={this.handleSubmit} method="GET" action="">
                     <h2>SEARCH STOCKS</h2>
                     <ul className='filtres'>
                     {/*<Filtre />*/}

@@ -4,8 +4,7 @@ var router = express.Router();
 /* GET users listing. 
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
-});*/
-
+});
 
 router.get('/', function(req, res, next) {
   connection.query('SELECT * from members', function (error, results, fields) {
@@ -13,5 +12,5 @@ router.get('/', function(req, res, next) {
    res.send(JSON.stringify(results));
  });
 });
-
+*/
 module.exports = router;
